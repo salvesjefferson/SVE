@@ -22,4 +22,11 @@ class ParkingSpace {
     {
         return owner == null
     }
+	
+	@Override
+	public String toString(){
+		return "Primeiro nome: $description, Sector: $sector, Preferential: $preferential"
+		
+	}
 }
+
